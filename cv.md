@@ -1,4 +1,4 @@
-# ![Profile Photo](https://placehold.co/400x400?text=Your+Photo)  
+# ![Profile Photo](avatar.png)  
 # Mardonbek Dusbekov
 
 **Junior Frontend Developer**  
