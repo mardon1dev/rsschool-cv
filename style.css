@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap");
+
+/* Reset some defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Bitcount Prop Single Ink", system-ui, sans-serif;
+
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "CRSV" 0.5, "ELSH" 0, "ELXP" 0, "SZP1" 0,
+    "SZP2" 0, "XPN1" 0, "XPN2" 0, "YPN1" 0, "YPN2" 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.nav-list li {
+  margin: 5px 10px;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main section {
+  background: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #4e73df;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+pre {
+  background: #f4f4f4;
+  padding: 10px;
+  overflow-x: auto;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.rs-logo {
+  width: 100px;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .avatar {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* Additional styling for project links */
+a {
+  color: #4e73df;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #2c3e50;
+}
+a:active {
+  color: #1abc9c;
+}
+/* Styling for project descriptions */
+.project-description {
+  margin-top: 5px;
+  font-style: italic;
+  color: #555;
+}
+.project-tech {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #777;
+}
+.project-live {
+  margin-top: 5px;
+}
+.project-live a {
+  color: #e74c3c;
+}
+.project-live a:hover {
+  text-decoration: underline;
+}
+.project-live a:visited {
+  color: #c0392b;
+}
+.project-live a:active {
+  color: #d35400;
+}
+/* End of style.css */
